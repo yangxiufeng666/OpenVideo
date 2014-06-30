@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorry_value">
+        <item>0</item>
+        <item>96</item>
+        <item>97</item>
+        <item>100</item>
+        <item>85</item>
+        <item>86</item>
+        <item>91</item>
+        <item>92</item>
+        <item>98</item>
+        <item>104</item>
+        <item>105</item>
+        <item>99</item>
+        <item>103</item>
+        <item>89</item>
+        <item>88</item>
+        <item>90</item>
+        <item>94</item>
+        <item>102</item>
+    </string-array>
+    <string-array name="category_title">
+        <item>推荐</item>
+        <item>电影</item>
+        <item>电视剧</item>
+        <item>动漫</item>
+        <item>综艺</item>
+        <item>娱乐</item>
+        <item>资讯</item>
+        <item>原创</item>
+        <item>体育</item>
+        <item>汽车</item>
+        <item>科技</item>
+        <item>游戏</item>
+        <item>生活</item>
+        <item>时尚</item>
+        <item>旅游</item>
+        <item>母婴</item>
+        <item>搞笑</item>
+        <item>广告</item>
+    </string-array>
+</resources>

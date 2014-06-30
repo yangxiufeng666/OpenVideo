@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/action_bar_search"
+          android:showAsAction="ifRoom"
+          android:actionViewClass="android.widget.SearchView" />
+    <!-- <item android:id="@+id/action_add"
+          android:icon="@android:drawable/ic_menu_add"
+          android:title="@string/action_bar_add" /> -->
+    <!-- <item android:id="@+id/action_edit"
+          android:icon="@android:drawable/ic_menu_edit"
+          android:showAsAction="always"
+          android:title="@string/action_bar_edit" /> -->
+    <!-- <item android:id="@+id/action_share"
+          android:icon="@android:drawable/ic_menu_share"
+          android:title="@string/action_bar_share"
+          android:showAsAction="ifRoom" /> -->
+    <item android:id="@+id/action_setting"
+          android:icon="@drawable/my_main_setting_bg"
+          android:title="设置"
+          android:showAsAction="ifRoom">
+        <!-- <menu>
+            <item android:id="@+id/action_sort_size"
+                  android:icon="@android:drawable/ic_menu_sort_by_size"
+                  android:title="@string/action_bar_sort_size"/>
+                  android:onClick="onSort" />
+            <item android:id="@+id/action_sort_alpha"
+                  android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                  android:title="@string/action_bar_sort_alpha"/>
+                  android:onClick="onSort" />
+        </menu> -->
+    </item>
+</menu>

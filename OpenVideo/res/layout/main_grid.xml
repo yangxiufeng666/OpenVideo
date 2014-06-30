@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.devil.openvideo.view.MultiSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridView
+            android:id="@+id/main_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="16dp"
+            android:horizontalSpacing="11.3dp"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:verticalSpacing="11.7dp"/>
+        <ProgressBar
+            android:id="@+id/load_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+        	android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+		<ProgressBar
+		    android:id="@+id/loading_progress"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true" 
+		    style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large.Inverse"
+		    android:visibility="gone"/>
+    </RelativeLayout>
+
+</com.devil.openvideo.view.MultiSwipeRefreshLayout>

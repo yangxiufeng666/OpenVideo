@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devil.openvideo"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/logo_512x512"
+        android:label="@string/app_name"
+        android:name="com.devil.openvideo.OpenApplication" >
+        <!-- Don't forgot InitActivity -->
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.devil.openvideo.VideoMainActivity"
+            android:theme="@style/StyledIndicators"
+            android:logo="@drawable/dis_menu_handpick"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.devil.openvideo.DetailActivity"
+            android:theme="@style/StyledIndicators"
+            android:screenOrientation="portrait"
+            android:label=""
+            android:icon="@drawable/logo_512x512"></activity>
+        <activity
+            android:name="com.devil.openvideo.SettingActivity"
+            android:theme="@style/StyledIndicators"
+            android:screenOrientation="portrait"
+            android:label=""
+            android:icon="@drawable/logo_512x512"></activity>
+        <activity
+            android:name="com.devil.openvideo.MediaPlayerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name="com.devil.openvideo.VideoViewPlayerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+    </application>
+
+</manifest>
