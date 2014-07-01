@@ -202,7 +202,9 @@ public class VideoViewPlayerActivity extends Activity implements
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
-		dbManager.closeDB();
+		if(dbManager!=null){
+			dbManager.closeDB();
+		}
 	}
 
 	long currentTimes;
