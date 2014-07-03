@@ -168,7 +168,7 @@ public class VideoMainActivity extends SlidingFragmentActivity {
 		long temCurTimes = System.currentTimeMillis();
 		if (temCurTimes - currentTimes > 2000) {
 			currentTimes = temCurTimes;
-			Toast.makeText(this, "再按一次退出HD-Video", Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, R.string.exit_app_tips, Toast.LENGTH_SHORT).show();
 			return;
 		}
 		super.onBackPressed();
