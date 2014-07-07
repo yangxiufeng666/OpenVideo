@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="category_img">
+        <item>@drawable/phone_top_filter_qiyi_bg</item>
+        <item>@drawable/phone_top_filter_movie_bg</item>
+        <item>@drawable/phone_top_filter_microfilm_bg</item>
+        <item>@drawable/phone_top_filter_comic_bg</item>
+        <item>@drawable/phone_top_filter_funny_bg</item>
+        <item>@drawable/phone_top_filter_ent_bg</item>
+        <item>@drawable/phone_top_filter_information_bg</item>
+        <item>@drawable/phone_top_filter_original_bg</item>
+        <item>@drawable/phone_top_filter_sport_bg</item>
+        <item>@drawable/phone_top_filter_car_bg</item>
+        <item>@drawable/phone_top_filter_trailers_bg</item>
+        <item>@drawable/phone_top_filter_game_bg</item>
+        <item>@drawable/phone_top_filter_life_bg</item>
+        <item>@drawable/phone_top_filter_fashion_bg</item>
+        <item>@drawable/phone_top_filter_travel_bg</item>
+        <item>@drawable/phone_top_filter_child_bg</item>
+        <item>@drawable/phone_top_filter_funny_bg</item>
+        <item>@drawable/phone_top_filter_ad_bg</item>
+    </array>
+</resources>

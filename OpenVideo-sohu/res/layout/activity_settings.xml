@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_bg_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:background="@color/list_bg_color"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/round_corner_bg_item_padding" >
+
+            <LinearLayout
+                android:id="@+id/account_settings"
+                style="@style/MoreSettingItem"
+                android:background="@drawable/round_corner_item_single_bg"
+                android:clickable="true" >
+
+                <TextView
+                    style="@style/MoreItemTextStyle"
+                    android:id="@+id/account_name"
+                    android:drawableLeft="@drawable/ic_account"
+                    android:text="我的账号" />
+
+                <TextView
+                    android:id="@+id/account_settings_desc"
+                    style="@style/SettingAttributeText" />
+            </LinearLayout>
+            
+			<TextView
+                style="@style/TextSettingItem"
+                android:layout_marginTop="@dimen/round_corner_bg_item_padding"
+                android:background="@drawable/round_corner_item_above_bg"
+                android:drawableLeft="@drawable/ic_app_normal"
+                android:text="应用推荐" />
+			
+			<TextView
+                style="@style/TextSettingItem"
+                android:id="@+id/checkUpdate"
+                android:background="@drawable/round_corner_item_middle_bg"
+                android:drawableLeft="@drawable/ic_download_pressed"
+                android:text="检测更新" />
+			
+			<LinearLayout
+                style="@style/MoreSettingItem"
+                android:background="@drawable/round_corner_item_below_bg"
+                android:onClick="clearCache" >
+
+                <TextView
+                    style="@style/MoreItemTextStyle"
+                    android:drawableLeft="@drawable/ic_clear_cache"
+                    android:text="清除缓存" />
+
+                <TextView
+                    android:id="@+id/cache_size"
+                    style="@style/SettingAttributeText"
+                    android:drawableRight="@null" />
+            </LinearLayout>
+			
+            <TextView
+                style="@style/TextSettingItem"
+                android:onClick="goToAboutUs"
+                android:layout_marginTop="@dimen/round_corner_bg_item_padding"
+                android:background="@drawable/round_corner_item_above_bg"
+                android:drawableLeft="@drawable/ic_about_us"
+                android:text="关于我们" />
+
+            <TextView
+                style="@style/TextSettingItem"
+                android:onClick="goToFeedback"
+                android:background="@drawable/round_corner_item_below_bg"
+                android:drawableLeft="@drawable/ic_feedback"
+                android:text="意见反馈" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

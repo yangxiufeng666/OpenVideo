@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorry_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>16</item>
+        <item>7</item>
+        <item>8</item>
+       <!--  <item>0</item>
+        <item>96</item>
+        <item>97</item>
+        <item>100</item>
+        <item>85</item>
+        <item>86</item>
+        <item>91</item>
+        <item>92</item>
+        <item>98</item>
+        <item>104</item>
+        <item>105</item>
+        <item>99</item>
+        <item>103</item>
+        <item>89</item>
+        <item>88</item>
+        <item>90</item>
+        <item>94</item> -->
+        <item>102</item>
+    </string-array>
+    <string-array name="category_title">
+        <item>推荐</item>
+        <item>电影</item>
+        <item>电视剧</item>
+        <item>动漫</item>
+        <item>综艺</item>
+        <item>纪录片</item>
+        <!-- <item>推荐</item>
+        <item>电影</item>
+        <item>电视剧</item>
+        <item>动漫</item>
+        <item>综艺</item>
+        <item>娱乐</item>
+        <item>资讯</item>
+        <item>原创</item>
+        <item>体育</item>
+        <item>汽车</item>
+        <item>科技</item>
+        <item>游戏</item>
+        <item>生活</item>
+        <item>时尚</item>
+        <item>旅游</item>
+        <item>母婴</item>
+        <item>搞笑</item>
+        <item>广告</item> -->
+    </string-array>
+    <string-array name="movie_area">
+        <item>内地</item>
+        <item>香港</item>
+        <item>台湾</item>
+        <item>好莱坞</item>
+        <item>欧洲</item>
+        <item>日本</item>
+        <item>韩国</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 内地、港剧、美剧、韩剧、英国、台剧、泰剧、其他 -->
+    <string-array name="tv_area">
+        <item>内地</item>
+        <item>港剧</item>
+        <item>台剧</item>
+        <item>美剧</item>
+        <item>韩剧</item>
+        <item>英国</item>
+        <item>泰剧</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 内地、欧美、日韩、港台、其他 -->
+    <string-array name="carton_area">
+        <item>内地</item>
+        <item>欧美</item>
+        <item>日韩</item>
+        <item>港台</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 内地、港台 -->
+    <string-array name="zongyi_area">
+        <item>内地</item>
+        <item>港台</item>
+    </string-array>
+    <!-- all -->
+    <string-array name="jilupian_area">
+        <item>all</item>
+    </string-array>
+</resources>

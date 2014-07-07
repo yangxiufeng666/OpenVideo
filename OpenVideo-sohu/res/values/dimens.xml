@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="popwindow_w">50dp</dimen>
+	<dimen name="popwindow_h_1">150dp</dimen>
+	<dimen name="popwindow_h_2">150dp</dimen>
+	<dimen name="round_corner_bg_item_padding">10.0dip</dimen>
+    <dimen name="round_corner_layout_item_padding">8.0dip</dimen>
+    <dimen name="reader_and_update_item_padding">5.0dip</dimen>
+    <dimen name="round_corner_item_height">51.299988dip</dimen>
+    <dimen name="more_bg_item_padding">12.0dip</dimen>
+</resources>
